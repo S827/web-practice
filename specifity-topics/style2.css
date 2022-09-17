@@ -1,0 +1,17 @@
+#winning {
+    background-color: red;
+    border: 5px solid black;
+}
+
+.better {
+    background-color: gray;
+    border: none !important; /* this will also remove border of winning id as
+    it has better class too */
+}
+
+p {
+    /* bg color will have no effect as above styles has more specifity */
+    background-color: blue;
+    color: whitesmoke;
+    padding: 5px;
+}
